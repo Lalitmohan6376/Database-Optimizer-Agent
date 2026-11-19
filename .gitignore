@@ -1,0 +1,54 @@
+# Environment & Secrets (Crucial: Never commit API keys!)
+.env
+*.env
+**/.env
+**/*.env
+backend/.env
+backend/agent/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+uploaded.db
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
